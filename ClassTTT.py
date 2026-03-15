@@ -12,7 +12,7 @@ s7 = 7
 s8 = 8
 s9 = 9
 
-
+# displays the board
 def show_board():
     print("=====")
     print(s1, "|", s2, "|", s3, sep="")
@@ -25,7 +25,7 @@ def show_board():
 
 player = "O"
 
-
+# checks win conditions
 def winner():
     if s1 == s2 and s2 == s3:
         return True
